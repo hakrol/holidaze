@@ -1,0 +1,21 @@
+.hero__image {
+    background-image: url(/assets/background.jpg);
+    height: 1088px;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+}
+
+.hero__content {
+    padding-top: 200px;
+
+    h1 {
+        color: white;
+        margin: 50px auto;
+        font-size: 60px;
+        @media (max-width: 600px) {
+            font-size: 40px;
+            margin: 5px 5px 20px 5px;
+        }
+    }
+}

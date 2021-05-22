@@ -1,0 +1,20 @@
+// External styling
+@import "~bootstrap/scss/bootstrap";
+
+// Base
+@import "partials/base/variables";
+@import "partials/base/typography";
+
+// Layout
+@import "partials/layout/layout";
+@import "partials/layout/button";
+@import "partials/layout/nav";
+@import "partials/layout/footer";
+@import "partials/layout/form";
+@import "partials/layout/searchbar";
+@import "partials/layout/testimonial-card";
+
+// Pages
+@import "partials/pages/places";
+@import "partials/pages/admin";
+@import "partials/pages/index";
